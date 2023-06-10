@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.homeContainer{
+    min-height: 92vh;
+    background-color: #010020;
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.leftContainer{
+    /*padding-top: 10rem !important;
+    padding-left: 10rem !important;*/
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rightContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.rightContainer img{
+    height: 30rem;
+}
+.btnstyle{
+    color: white !important;
+    background-color: #010020 !important;
+    border : 2px solid white !important;
+}
+.btnstyle:hover{
+    cursor: pointer !important;
+    background-color: #3131bc !important;
+    transition: 0.3s ease-in-out !important;
+}
+.arrowContainer{
+    min-height: 6rem;
+    display: flex !important;
+    justify-content: center !important;
+}
+.arrow{
+    animation: jumpInfinite 1.5s infinite;
+    color: white;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+@keyframes jumpInfinite {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 20px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}

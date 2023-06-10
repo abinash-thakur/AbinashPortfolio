@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.aboutMain{
+    min-height: 100vh;
+    background-color: #010020;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.abt-image{
+    height: 100vh;
+    background-image: url(../image//about.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.aboutRight>h1{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.aboutRight>p{
+    font-size: 1.2rem;
+}
+.aboutRight > tbody > tr > td{
+    padding: 0.5rem;
+    font-size: 1rem;
+}

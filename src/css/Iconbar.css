@@ -1,0 +1,14 @@
+.iconContainer{
+    background-color: #010020 !important;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.iconStyle{
+    max-height: 3rem !important;
+}
+.colFlexing{
+    display: flex !important;
+    justify-content: center !important;
+}

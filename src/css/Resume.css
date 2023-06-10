@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainresume{
+    background-color: #010020;
+    font-family: 'Poppins', sans-serif;
+}
+.edRight h1{
+    color: #7755a6;
+    font-weight: 700;
+}
+
+.vn-list{
+    display: flex;
+    flex-direction: column;
+}
+.vn-list >a>li::before{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    display: inline-block;
+    background-color: white;
+    transition:ease 0.5s;
+    text-align: center;
+    margin: auto;
+}
+.vn-list >a>li:hover:before{
+    width: 10%;
+    cursor: pointer ;
+    margin-right: 0.5rem;
+}
+
+.vn-list > a{
+    text-decoration: none;
+    color: white;
+    font-style: none;
+}
+
+.vn-list > a:hover{
+    color: gainsboro;
+}
