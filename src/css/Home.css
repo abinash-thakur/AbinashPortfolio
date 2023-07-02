@@ -18,16 +18,17 @@
     justify-content: center;
 }
 .rightContainer{
-    display: flex;
-    justify-content: space-around;
+    background-image: url('../image/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.rightContainer img{
-    height: 30rem;
-}
+
 .btnstyle{
     color: white !important;
     background-color: #010020 !important;
     border : 2px solid white !important;
+    border-radius: 100px;
 }
 .btnstyle:hover{
     cursor: pointer !important;
@@ -35,12 +36,16 @@
     transition: 0.3s ease-in-out !important;
 }
 .arrowContainer{
-    min-height: 6rem;
+    margin-top: 2rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
     display: flex !important;
     justify-content: center !important;
+    background-color: rgba(245, 245, 245, 0.21);
 }
 .arrow{
-    animation: jumpInfinite 1.5s infinite;
+    animation: jumpInfinite 1s infinite;
     color: white;
 }
 .arrow:hover{
@@ -50,10 +55,10 @@
     0% {
         margin-top: 0;
     }
-    50% {
-        margin-top: 20px;
-    }
     100% {
-        margin-top: 0;
+        margin-top: 30px;
     }
+    /* 100% {
+        margin-top: 0;
+    } */
 }

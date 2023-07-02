@@ -1,18 +1,18 @@
 import React from 'react';
 import '../css/Home.css';
-import bgimage from '../image/bg.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Typewriter from 'typewriter-effect';
-import { ArrowDown } from 'react-bootstrap-icons';
+import { ArrowDown, Download, Git } from 'react-bootstrap-icons';
 import { Button } from 'react-bootstrap';
+import Resume from '../Resume/AbinashResume.pdf';
 
 export default function Home() {
     return (
         <Container id="home" fluid className='homeContainer'>
             <Row className='p-0 m-0'>
-                <Col sm={12} md={12} lg={6} className='leftContainer'>
+                <Col sm={12} md={12} lg={6} className='leftContainer ht-100vh'>
                     <div>
                         <div>Hi, My name is <nav style={{ color: "#7755a6", display: "inline" }}>Abinash</nav></div>
                         <div>and I am a Passionate</div>
@@ -26,18 +26,15 @@ export default function Home() {
                                 />
                         </div>
                         <div className='my-5'>
-                            <Button className='rounded-0 btnstyle'>Download Resume</Button>
-                            <Button className='ms-2 rounded-0 btnstyle'>Visit Github</Button>
+                            <a href={Resume} download="Abinash_Resume" target='_blank' rel='noreferrer'><Button className='btnstyle'> <Download />&nbsp;&nbsp;Resume</Button></a>
+                            <a href="https://github.com/abinash-thakur" target='_blank'><Button className='ms-2 btnstyle'><Git />&nbsp;&nbsp;Github</Button></a>
                         </div>
+                    </div>
+                    <div className='arrowContainer'>
+                        <a href='#about'><ArrowDown className='arrow'/></a>
                     </div>
                 </Col>
                 <Col sm={12} md={12} lg={6} className='rightContainer' >
-                    <img src={bgimage} alt='not found'></img>
-                </Col>
-            </Row>
-            <Row className='p-0 m-0'>
-                <Col className='arrowContainer'>
-                    <a href='#about'><ArrowDown className='arrow'/></a>
                 </Col>
             </Row>
         </Container>

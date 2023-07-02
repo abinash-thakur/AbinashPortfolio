@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .abt-image{
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url(../image//about.jpg);
     background-position: center;
     background-size: contain;
