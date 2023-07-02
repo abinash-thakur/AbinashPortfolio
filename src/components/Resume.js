@@ -25,13 +25,13 @@ export default function Resume() {
                         </ul>
                     </div>
                 </Col>
-                <Col className='edRight p-0' sm={12} md={12} lg={9} >
+                <Col className='edRight p-0 m-0' sm={12} md={12} lg={9} >
                     <h1 className='pb-5' id="Education">Education</h1>
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><MortarboardFill fontSize={30} color='white' /></div>
+                            <div className='icon-style mb-3'><MortarboardFill fontSize={30} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11} style={{ width: "70%" }}>
+                        <Col className='p-0' lg={11} md={11} sm={11} style={{ width: "70%" }}>
                             <h6 className='text-light'>2019-2023</h6>
                             <h3 style={{ color: "#7755a6", marginBottom: "1.2rem" }}>Computer Science & Engineering</h3>
                             <h5 style={{ color: "#7755a6" }}>GIET University, Gunupur Odisha India</h5>
@@ -42,9 +42,9 @@ export default function Resume() {
 
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><MortarboardFill fontSize={30} color='white' /></div>
+                            <div className='icon-style mb-3'><MortarboardFill fontSize={30} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11}>
+                        <Col className='p-0' lg={11} md={11} sm={11}>
                             <h6 className='text-light'>2017-2019</h6>
                             <h3 style={{ color: "#7755a6", marginBottom: "1.2rem" }}>Intermediate</h3>
                             <h5 style={{ color: "#7755a6" }}>Sai Sristi Higher Secondary School, Bhubaneswar Odisha India</h5>
@@ -53,9 +53,9 @@ export default function Resume() {
                         <hr className='text-light'></hr>
                     </Row>
 
-                    <Row style={{ marginBottom: "8rem", marginRight:0 }}>
+                    <Row style={{ marginBottom: "8rem"}}>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><MortarboardFill fontSize={30} color='white' /></div>
+                            <div className='icon-style mb-3'><MortarboardFill fontSize={30} color='white' /></div>
                         </Col>
                         <Col lg={11} md={11} sm={11}>
                             <h6 className='text-light'>2012-2017</h6>
@@ -69,9 +69,9 @@ export default function Resume() {
                     <h1 className='pb-5' id="Experience">Experience</h1>
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><Briefcase fontSize={25} color='white' /></div>
+                            <div className='icon-style mb-3'><Briefcase fontSize={25} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11}>
+                        <Col className='p-0' lg={11} md={11} sm={11}>
                             <h6 className='text-light'>2022-2023</h6>
                             <h3 style={{ color: "#7755a6", marginBottom: "1.2rem" }}>Associate Software Developer</h3>
                             <h5 style={{ color: "#7755a6" }}>Antino Labs Private Limited, Gurugram Haryana India</h5>
@@ -82,7 +82,7 @@ export default function Resume() {
 
                     <Row style={{ marginBottom: "8rem",marginRight:0 }}>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><Briefcase fontSize={25} color='white' /></div>
+                            <div className='icon-style mb-3'><Briefcase fontSize={25} color='white' /></div>
                         </Col>
                         <Col lg={11} md={11} sm={11}>
                             <h6 className='text-light'>2021-2022</h6>
@@ -289,9 +289,9 @@ export default function Resume() {
                     <h1 className='pb-5' id="Certification">Certification</h1>
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><Award fontSize={25} color='white' /></div>
+                            <div className='icon-style mb-3'><Award fontSize={25} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11}>
+                        <Col className='p-0' lg={11} md={11} sm={11}>
 
                             <h6 className='text-light'>17 MAY, 2021 - 04 AUG, 2021 <a href={Internship} target='_blank' rel="noreferrer"><BoxArrowUpRight className='text-light fs-5 ms-2'/></a></h6>
 
@@ -304,9 +304,9 @@ export default function Resume() {
 
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><Award fontSize={25} color='white' /></div>
+                            <div className='icon-style mb-3'><Award fontSize={25} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11}>
+                        <Col className='p-0' lg={11} md={11} sm={11}>
 
                             <h6 className='text-light'>08 MAY, 2022 - 25 SEP, 2022 <a href={javaJ2E} target='_blank' rel="noreferrer"><BoxArrowUpRight className='text-light fs-5 ms-2'/></a></h6>
 
@@ -319,9 +319,9 @@ export default function Resume() {
 
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><Award fontSize={25} color='white' /></div>
+                            <div className='icon-style mb-3'><Award fontSize={25} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11}>
+                        <Col className='p-0' lg={11} md={11} sm={11}>
 
                             <h6 className='text-light'>26 MAY, 2021<a href={gitgithub} target='_blank' rel="noreferrer"><BoxArrowUpRight className='text-light fs-5 ms-2'/></a></h6>
 
@@ -334,9 +334,9 @@ export default function Resume() {
 
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><Award fontSize={25} color='white' /></div>
+                            <div className='icon-style mb-3'><Award fontSize={25} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11}>
+                        <Col className='p-0' lg={11} md={11} sm={11}>
 
                             <h6 className='text-light'>10 JAN, 2020 - 10 MAR, 2020 <a href={htmlworkshop} target='_blank' rel="noreferrer"><BoxArrowUpRight className='text-light fs-5 ms-2'/></a></h6>
 
@@ -349,9 +349,9 @@ export default function Resume() {
 
                     <Row className='m-0 p-0'>
                         <Col className='d-flex justify-content-center align-center' lg={1} md={1} sm={1}>
-                            <div className='icon-style'><Award fontSize={25} color='white' /></div>
+                            <div className='icon-style mb-3'><Award fontSize={25} color='white' /></div>
                         </Col>
-                        <Col lg={11} md={11} sm={11}>
+                        <Col className='p-0' lg={11} md={11} sm={11}>
 
                             <h6 className='text-light'>11 APR, 2020 - 11 MAY, 2020 <a href={sql} target='_blank' rel="noreferrer"><BoxArrowUpRight className='text-light fs-5 ms-2'/></a></h6>
 
